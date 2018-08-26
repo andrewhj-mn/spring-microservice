@@ -1,0 +1,5 @@
+pipeline:
+  backend:
+    image: openjdk:8
+    commands:
+      - ./mvnw package
